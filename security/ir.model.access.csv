@@ -1,0 +1,8 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_dtm_tubos_laser,access.dtm.tubos_laser,model_dtm_tubos_laser,base.group_user,1,1,1,1
+access_dtm_tubos_realizados,access.dtm.tubos.realizados,model_dtm_tubos_realizados,base.group_user,1,1,1,1
+access_dtm_documentos_tubos,access.dtm.documentos.tubos,model_dtm_documentos_tubos,base.group_user,1,1,1,1
+access_dtm_cortadora_tubos,access.dtm.cortadora.tubos,model_dtm_cortadora_tubos,base.group_user,1,1,1,1
+
+
+

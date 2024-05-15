@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+     <menuitem name="Cortadora de tubos" id="menu_root_tubos_laser">
+        <menuitem id="menu_dtm_tubos_laser"  action="dtm_tubos_laser.dtm_tubos_laser_accion" />
+        <menuitem id="menu_dtm_tubos_realizados"  action="dtm_tubos_laser.dtm_tubos_realizados_accion" />
+     </menuitem>
+</odoo>
