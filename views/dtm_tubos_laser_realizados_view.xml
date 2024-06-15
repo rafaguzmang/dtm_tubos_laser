@@ -8,6 +8,7 @@
             <field name="arch" type="xml">
                 <tree create="false">
                     <field name="orden_trabajo"/>
+                    <field name="tipo_orden" />
                     <field name="fecha_entrada"/>
                     <field name="nombre_orden"/>
                 </tree>
@@ -26,7 +27,6 @@
             <field name="model">dtm.tubos.realizados</field>
             <field name="arch" type="xml">
                 <form string="formulario">
-
                     <sheet>
                         <group >
                             <field name="orden_trabajo"/>
@@ -35,19 +35,19 @@
                         </group>
                         <notebook>
                             <page string="Archivos">
-                                <field name="tubos_id"  >
-                                    <tree>
-                                        <field name="nombre" />
-<!--                                        <field name="cortado" widget="boolean_toggle"/>-->
-                                    </tree>
-                                   <form>
-                                        <group >
-                                            <field name="documentos" filename="nombre" widget="pdf_viewer"></field>
-                                            <field name="nombre" invisible="1"></field>
-                                        </group>
-                                     </form>
+<!--                                <field name="tubos_id"  >-->
+<!--                                    <tree>-->
+<!--                                        <field name="nombre" />-->
+<!--&lt;!&ndash;                                        <field name="cortado" widget="boolean_toggle"/>&ndash;&gt;-->
+<!--                                    </tree>-->
+<!--                                   <form>-->
+<!--                                        <group >-->
+<!--                                            <field name="documentos" filename="nombre" widget="pdf_viewer"></field>-->
+<!--                                            <field name="nombre" invisible="1"></field>-->
+<!--                                        </group>-->
+<!--                                     </form>-->
 
-                                </field>
+<!--                                </field>-->
                             </page>
                             <page string="Material">
 
